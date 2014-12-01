@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Turconi SRL - Lista Felo</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+<link rel="stylesheet" href="css/styles.css" />
+
+ </head>
+    
+<body>
+        
+<div id="employeeListPage3" data-role="page" data-position="fixed">
+	<div data-role="header" data-theme="b" class="myHead">
+  		<h1>Turconi SRL</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" >Productos</a></li>
+        <li><a href="pedido.html" data-transition="flip">Pedidos</a></li>
+      </ul>
+    </div>   
+  </div>
+	<div data-role="content">
+          
+         <ul id="employeeList3" data-role="listview" data-filter="true" data-theme="b"></ul>
+         
+     <div data-role="popup" id="myPopup3" class="ui-content">
+		<p>Cantidad</p>
+		<form>
+			<input type="number" name="cant" value="1"/>
+			<input type="submit" name="agregar" value="Agregar"/>
+		</form>
+    </div>
+    
+     <div data-role="footer" data-position="fixed" data-theme="b" style="text-align:center;">
+     <p style="font-size:10px!important;">Copyright © 2014 Turcono-SRL</p>
+  </div>
+</div>
+
+<script src="js/employeelist3.js"></script>
+
+
+</body>
+
+</html>
+

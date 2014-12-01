@@ -1,4 +1,4 @@
-var serviceURL = "http://localhost/appproductos/services/";
+var serviceURL = "http:/turconisrl.com/appproductos/services/";
 
 var employees;
 
